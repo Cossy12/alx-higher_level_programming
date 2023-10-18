@@ -1,0 +1,2 @@
+-- Lists   database.
+SHOW TABLES;
