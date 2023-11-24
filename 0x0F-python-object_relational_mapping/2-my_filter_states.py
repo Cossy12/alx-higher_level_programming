@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 import sys
 import MySQLdb
+"""  an argument
+    and displays all values
+ states table 
+    """
 
 if __name__ == "__main__":
     db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])

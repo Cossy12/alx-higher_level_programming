@@ -7,6 +7,10 @@ from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
 
+"""
+ City model.
+Inherits  SQLAlchemy Base and links to the MySQL table cities.
+"""
 
 class State(Base):
     __tablename__ = "states"
